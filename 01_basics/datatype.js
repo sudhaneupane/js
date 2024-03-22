@@ -37,3 +37,28 @@ const myFunction = function(){
     console.log("hello world");
 }
 console.log(typeof id);
+
+
+//***************************Stack and Heap********************************
+
+/* Stack(Primitive)
+    Heap(Non-Primitive)
+    
+*/
+
+let myName="Sudha Neupane"
+let anotherName=myName
+anotherName="Sumi Pari"
+console.log(anotherName)
+console.log(myName);
+
+let userOne={
+    name:"Sudha Neupane",
+    email:"sudha@gmail.com",
+    phone:9854762454
+}
+console.log(userOne);
+
+let userTwo=userOne
+userTwo.email="user@gmail.com"
+console.log(userTwo);
