@@ -1,28 +1,28 @@
-// let score ="33";
+let score ="33";
 
-// console.log(typeof score)
+console.log(typeof score)
 
-// let valueinNumber=Number(score)
+let valueinNumber=Number(score)
 
-// console.log(valueinNumber)
+console.log(valueinNumber)
 
-// //"33"=>33
-// //"33abs"=>NaN
-// //true=>1
-// //false=>0
+//"33"=>33
+//"33abs"=>NaN
+//true=>1
+//false=>0
 
-// let isLoggedIn=1
-// let booleanIsLoggedIn=Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn)
+let isLoggedIn=1
+let booleanIsLoggedIn=Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn)
 
-// //0=>false; 1=>true
-// //""=>false
-// //"sudha"=>true
+//0=>false; 1=>true
+//""=>false
+//"sudha"=>true
 
-// let words=14;
-// let conversion=String(words)
-// console.log(conversion)
-// console.log(typeof conversion)
+let words=14;
+let conversion=String(words)
+console.log(conversion)
+console.log(typeof conversion)
 
 //*********************Operations*****************
 
