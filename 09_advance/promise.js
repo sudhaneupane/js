@@ -1,3 +1,5 @@
+// The Promise object represents the eventual completion or failure of an asynchrous operation and its resulting value.
+
 // fetch("https://something.com").then().catch().finally()
 
 const promiseOne=new Promise(function(resolve,reject){
@@ -38,7 +40,7 @@ const promiseFour=new Promise(function(resolve,reject){
     setTimeout(function(){
         let error=true
         if(!error){
-            resolve({username:"nirmal",password:1457})
+            resolve({username:"sukuna",password:"1457"})
         }else{
             reject('error:something went wrong')
         }
